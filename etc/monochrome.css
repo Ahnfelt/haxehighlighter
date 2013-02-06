@@ -1,0 +1,43 @@
+.code {
+    background-color: #F0F0F0;
+    border: 1px solid #303030;
+    color: #000000;
+    margin: 10px 15px 15px 15px;
+    padding: 0;
+}
+
+.code .code-line-numbers {
+    color: #808080;
+    background-color: #202020;
+    border-right: 1px dotted #808080;
+    float: left;
+    text-align: right;
+    width: 2em;
+    margin-right: 6px;
+    padding: 6px 3px 6px 6px;
+}
+
+.code .code-code {
+    padding: 6px 6px 6px 6px;
+}
+
+.code .code-keyword {
+    font-weight: bold;
+}
+
+.code .code-type {
+}
+
+.code .code-variable {
+}
+
+.code .code-number {
+}
+
+.code .code-comment {
+    font-style: italic;
+}
+
+.code .code-string {
+}
+

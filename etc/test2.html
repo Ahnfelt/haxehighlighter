@@ -1,0 +1,75 @@
+<html>
+<head>
+<title>Highlighting test</title>
+<style type="text/css">
+#line-number-example .code {
+    background-color:#253050;
+    color:#FFFFFF;
+    margin:10px 15px 15px 15px;
+    padding:0px 6px 0px 0px;
+}
+
+#line-number-example .code-line-numbers {
+    color:#FFFFFF;
+    background-color:#C05040;
+    border-right:1px solid #FFFFFF;
+    padding-left:3px;
+    padding-right:5px;
+    float:left;
+    text-align:right;
+    margin-right:10px;
+}
+
+#line-number-example .code-nested {
+}
+
+#line-number-example .code-keyword {
+    color: #f9bb00;
+}
+
+#line-number-example .code-type {
+    color: #D08000;
+}
+
+#line-number-example .code-variable {
+    color: #004050;
+}
+
+#line-number-example .code-number {
+    color: #F08000;
+}
+
+#line-number-example .code-comment {
+    color: #428bdd;
+}
+
+#line-number-example .code-string {
+    color: #00cc00;
+}
+</style>
+</head>
+<body class="wiki">
+<div id="line-number-example">
+<pre class="code html">
+<!-- Line number example -->
+&lt;form method="post" enctype="text/plain" action="mailto:youremail@yourdomain.com">
+  &lt;p>
+    &lt;select name="&lt;rating>" size="1">
+      &lt;option value="5">5 - Excellent, Extremely Useful&lt;/option>
+      &lt;option value="4">4 - Very Good, Useful&lt;/option>
+      &lt;option value="3">3 - Good, I learned something&lt;/option>
+      &lt;option value="2">2 - Ok, but not really that useful&lt;/option>
+      &lt;option value="1">1 - Not Useful At All, Sorry&lt;/option>
+    &lt;/select>
+    &lt;input type="submit" value="Submit">
+  &lt;/p>
+&lt;/form>
+</pre>
+</div>
+<script type="text/javascript" src="Highlighter.js"></script>
+<script type="text/javascript">
+Highlighter.highlightAll(true);
+</script>
+</body>
+</html>
+
